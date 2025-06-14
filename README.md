@@ -237,6 +237,8 @@ This will create a new NAT Network. If I want to modify the subnet, disable DHCP
 
 
 
+<img src="Folder/NAT-Network-2.jpg">
+
 I am going to leave all of these options at default... so I am done creating the Virtual Network!
 Configure the Networking tab for your chosen network type. Again, the easiest solution is to create and use a NAT Network.
 
