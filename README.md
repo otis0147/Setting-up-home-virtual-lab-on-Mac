@@ -115,7 +115,7 @@ This will launch the new VM window. Go ahead and click the Expert Mode button. D
 
 
 
-
+<img src="Folder/New-VM.jpg">
 
 
 
@@ -123,6 +123,14 @@ This will launch the new VM window. Go ahead and click the Expert Mode button. D
 
 
 I am going to specify a name of "MyVM" and 2048 MB (2gb) of RAM then I will click Create.
+
+
+
+
+<img src=""   >
+
+
+
 
 This will open another window for creating the Virtual Hard Disk. The default options here are all fine except for the File Size. I am going to set my new HDD to 60GB and then choose Create.
 
