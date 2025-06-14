@@ -202,22 +202,30 @@ You can create a NAT Network by clicking on File > Preferences. Select the Netwo
 
 
 
-Bridged Adapter
+<h2>Bridged Adapter</h2>
 Using this network type will cause your router to treat your VM as a physical computer. This means your VM will be connected to the same network as your host computer. Use this lab when you need to access your VMs from your host network.
 
 Using a bridged adapter is as simple as right-clicking your VM and selecting Settings then navigating to the Network tab (image above)
 
-Internal Network
+<h2>Internal Network</h2>
 This network provides your VMs with connectivity but no external access. Use this when you want to create an isolated IT lab.
 Using an Internal Network is as simple as right-clicking your VM and selecting Settings then navigating to the Network tab (image above)
 
-Host-only Adapter
+<h2>Host-only Adapter</h2>
 This is essentially the same as an internal network, except that your host computer will have a direct IP connection to the VM. Meaning you can RDP, SSH or ping the VMs from the host computer. Use this network type when you will need direct access to the VMs from your host computer. It is commonly used for test web servers (think copying files from the host computer to the VM web server, or directly editing the code on the web server VM from your host computer.
  
 You can create a host-only network by select File > Host Network Manager
 
 
-Generic Driver
+
+
+<img src="Folder/Host-Only-Network-Adapters.jpg">
+
+
+
+
+
+<h2>Generic Driver</h2>
 Oracles documentation for the generic driver states:
 The generic driver attachment is special and cannot be considered as an alternative to other attachment types.
 
@@ -228,12 +236,13 @@ First I will select File > Preferences, then navigate to the Network tab. Next I
 This will create a new NAT Network. If I want to modify the subnet, disable DHCP or support IPv6 I can do this by double-clicking the NAT Network.
 
 
+
 I am going to leave all of these options at default... so I am done creating the Virtual Network!
 Configure the Networking tab for your chosen network type. Again, the easiest solution is to create and use a NAT Network.
 
 
 
-Downloading Your operating systems ISO(s)
+<h2>Downloading Your operating systems ISO(s)</h2>
 Next we need an operating system (OS) to install on our Virtual Machines. You could do this with a physical disc if you wanted, but most of the time you will want to download an ISO for OS installations.
  
 The easiest way to find what you're looking for is to simply google the name of your operating system with "ISO download" in the search.  For example if you want Windows Server 2016, just search 
