@@ -164,6 +164,7 @@ Pro tip: Storing the VM's hard disk file on an SSD will also significantly incre
 
 
 
+<img src="Folder/CPUs.jpg">
 
 
 
