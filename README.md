@@ -127,7 +127,11 @@ I am going to specify a name of "MyVM" and 2048 MB (2gb) of RAM then I will clic
 
 
 
-<img src=""   >
+
+
+
+
+<img src="Folder/New-VM-HDD.jpg">
 
 
 
